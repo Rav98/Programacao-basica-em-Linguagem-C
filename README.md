@@ -51,4 +51,29 @@ Para instalar no Microsoft Windows é preciso instalar o programa MinGW.
 
 Após a instalação é preciso fazer o Windows reconhecer o compilador. Segue abaixo um tutorial para adicionar o compilador no sistema:
 
+#### 1. Abra o painel de controle do Windows e clique na opção ```Sistema```.
+![Tutorial1](https://user-images.githubusercontent.com/46981155/90186228-3a370400-dd8e-11ea-9dd3-555ea5f60a8a.png)
+__________________________________________________________________________________________________________________
+
+#### 2. Clique na opção de ```Configurações avançadas do sistema```.
+![Tutorial2](https://user-images.githubusercontent.com/46981155/90186346-65b9ee80-dd8e-11ea-8de0-ef14d1c4f731.PNG)
+
+__________________________________________________________________________________________________________________
+
+#### 3. Vá na aba ```Avançado``` e clique em ```Variaveis de ambiente```.
+![Tutorial3](https://user-images.githubusercontent.com/46981155/90186384-74080a80-dd8e-11ea-8bfa-89cde27fd777.PNG)
+
+__________________________________________________________________________________________________________________
+
+#### 4. Selecione a Variavel ```Path``` e clique em ```Editar```.
+![Tutorial4](https://user-images.githubusercontent.com/46981155/90186410-8124f980-dd8e-11ea-91be-5946655fa390.PNG)
+
+__________________________________________________________________________________________________________________
+
+#### 5. Clique em ```Novo``` e cole o local de instalação do MinGW. O caminho padrão é ```C:\MinGW\bin``` . Após colar o caminho, basta dar um ```OK```.
+![Tutorial5](https://user-images.githubusercontent.com/46981155/90186460-91d56f80-dd8e-11ea-8367-63c6bcac22b2.PNG)
+
+__________________________________________________________________________________________________________________
+
+Agora, com o sistema configurado, basta abrir o CMD na pasta onde está o arquivo, digitando ```cmd``` no lugar do caminho da pasta, como na imagem a seguir:
 
