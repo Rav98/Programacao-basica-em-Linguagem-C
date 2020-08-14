@@ -60,12 +60,12 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________
 
-#### 3. Vá na aba ```Avançado``` e clique em ```Variaveis de ambiente```.
+#### 3. Vá na aba ```Avançado``` e clique em ```Variáveis de ambiente```.
 ![Tutorial3](https://user-images.githubusercontent.com/46981155/90186384-74080a80-dd8e-11ea-8bfa-89cde27fd777.PNG)
 
 __________________________________________________________________________________________________________________
 
-#### 4. Selecione a Variavel ```Path``` e clique em ```Editar```.
+#### 4. Selecione a Variável ```Path``` e clique em ```Editar```.
 ![Tutorial4](https://user-images.githubusercontent.com/46981155/90186410-8124f980-dd8e-11ea-91be-5946655fa390.PNG)
 
 __________________________________________________________________________________________________________________
@@ -75,5 +75,15 @@ ________________________________________________________________________________
 
 __________________________________________________________________________________________________________________
 
-Agora, com o sistema configurado, basta abrir o CMD na pasta onde está o arquivo, digitando ```cmd``` no lugar do caminho da pasta, como na imagem a seguir:
+#### 6. Agora, com o sistema configurado, basta abrir o CMD na pasta onde está o arquivo, digitando ```cmd``` no lugar do caminho da pasta, como na imagem a seguir:
+![Tutorial6](https://user-images.githubusercontent.com/46981155/90259977-41f3b880-de21-11ea-8ad1-9c0e713c5750.png)
 
+__________________________________________________________________________________________________________________
+
+#### 7. Após abrir o CMD na pasta onde esta os arquivos, basta digitar:
+```gcc Nome_do_arquivo.c -o Nome_para_o_executavel_compilado```
+
+__________________________________________________________________________________________________________________
+
+#### 8. Finalmente, na pasta onde estão os arquivos será gerado um novo arquivo com o nome que foi escolhido na compilação. No exemplo da imagem a seguir, foi compilado o arquivo **Struct.c** com o nome de **Struct_compilada** , código usado ```gcc Struct.c -o Struct_compilada``` . Só clicar no executável e o programa irá abrir!!!
+![Tutorial7](https://user-images.githubusercontent.com/46981155/90260042-5768e280-de21-11ea-844a-7d97b7ad3f18.PNG)
