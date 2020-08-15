@@ -84,9 +84,9 @@ int main (){
 		printf("| Frequencia do Processador: %s\n", pc.freguencia_processador);
 		printf("| Quantia de Memoria Ram:%s\n", pc.memoria);
 		printf("\n\nAperte ENTER para sair!");
-		scanf("%c",exit);
+		scanf("%c",&exit);
 	
-	}while(exit=='\n');
+	}while(exit!='\n');
 
 	return 0;
 }
