@@ -26,6 +26,12 @@
 
 - ### Struct.c
     Programa desenvolvido com o propósito de aplicar os conhecimentos sobre estrutura (STRUCT).
+    
+- ### LICENSE
+    Este arquivo contém escrito a licença  **GPL-3.0 License** em que o repositório se baseia. 
+    
+- ### README
+    Este arquivo contém o conteúdo com esta descrição do repositório 
 
 ## Como executar
    Para executar os programas é preciso compilar os códigos utilizando o GCC ( GNU Compiler Collection ), que contém o compilador da linguagem de programação C. Veja, a seguir, 
