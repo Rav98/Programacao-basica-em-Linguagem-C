@@ -23,11 +23,13 @@ struct infoPC{
 
 int main (){
 	int i;                                /*Variável para percorrer cada parte do vetor de string*/
-	char exit='\n';	                      /*Variável para de controle do DO WHILE*/
 	
-
-	/* O ( DO WHILE ) foi implementado com o intuito de evitar que o programa feche após finalziar a execução. 
-	 * Só ira ser fechado após o usuario confirmar apertando o enter.                                            */
+	/* O ( DO WHILE ) foi implementado com o intuito de evitar que o programa feche após finalizar a execução. 
+	 * Só irá ser fechado após o usuário confirmar apertando o enter.
+	 * No Windows o programa pode ser executado fora da tela do terminal, por isso, quando a execução termina 
+	 * a tela do programa é fechada automaticamente. */
+	
+	char exit='\n';	                      /*Variável para de controle do DO WHILE*/
 	do{
 		i=0;														 /*Variável para percorrer cada parte do vetor de string*/
 		printf("\nDigite o modelo da PLACA DE VIDEO: ");	
