@@ -20,6 +20,9 @@
 
 - ### Menor_e_Maior_numero_de_um_vetor.c
     Programa desenvolvido com o propósito de achar o MAIOR e o MENOR número de um vetor de inteiros.
+    
+- ### Ordenar_vetor_em_ordem_crescente.c
+    Programa desenvolvido com o propósito de ordenar em ordem crecente um vetor de inteiros.
 
 - ### Struct.c
     Programa desenvolvido com o propósito de aplicar os conhecimentos sobre estrutura (STRUCT).
