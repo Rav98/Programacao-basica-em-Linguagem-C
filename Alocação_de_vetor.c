@@ -39,7 +39,7 @@ int main()
         for (i = 0; i < number; i++)
         {
             /*(FOR) que percorre o vetor salvando os numeros que o usuário fornece */
-            printf("Digite o numero que desejas:");
+            printf("Digite o elemento %d:",i+1);
             scanf("%d", &v[i]);
         }
         printf("\n\n");
