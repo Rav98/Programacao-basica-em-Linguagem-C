@@ -42,9 +42,9 @@ int main()
         fclose(arquivo); /*Fecha o arquivo com segurança!*/
 
         printf("\n\nAperte ENTER para sair!");
-        scanf("%c", exit);
+        scanf("%c",&exit);
 
-    } while (exit == '\n');
+    } while (exit != '\n');
 
     return 0;
 }
