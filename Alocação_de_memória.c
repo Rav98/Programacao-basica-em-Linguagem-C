@@ -70,9 +70,9 @@ int main()
 		free(nome2);
 
 		printf("\n\nAperte ENTER para sair!");
-		scanf("%c",exit);
+		scanf("%c",&exit);
 
-	} while (exit == '\n');
+	} while (exit != '\n');
 
 	return 0;
 }
